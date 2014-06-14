@@ -140,7 +140,8 @@ header.small-header {
 }
 
 .about-slide {
-    background-color: rgba(0,0,0,0.6);
+    background-size: 100%;
+    background-image: url(../img/about3.jpg);
 }
 
 .slide {
@@ -467,9 +468,10 @@ footer ul li:last-child {
 
 .video-iframe {
     width: 600px;
-    position: absolute;
-    top: 100px;
-    right: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 
 .single-map-info {
@@ -1298,4 +1300,30 @@ div.logo {
     margin-right: auto;
     height: 250px;
     overflow: hidden;
+}
+
+#simple_text{
+    width: 300px;
+    color: #fff;
+    z-index: 112;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    position: relative;
+}
+
+#simple_text h2{
+    margin:0px;
+    font-size: 36px;
+}
+
+.demo_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index:112;
+    position: absolute;
+    display: none;
 }

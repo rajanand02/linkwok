@@ -130,10 +130,12 @@ header.small-header {
 }
 
 .blog-picture {
+    background-size: 100%;
     background-image: url(../img/main_blog_image.jpg);
 }
 
 .explore-picture {
+    background-size: 100%;
     background-image: url(../img/explore.jpg);
 }
 
@@ -151,11 +153,13 @@ header.small-header {
 }
 
 .slide-1 {
+    background-size: 100%;
     background-image: url(../img/main_image_1.jpg);
 }
 
 .slide-2 {
     display: none;
+    background-size: 100%;
     background-image: url(../img/main_image_2.jpg);
 }
 
@@ -726,7 +730,6 @@ a.orange-button:hover img {
     width: 1000px;
     overflow: hidden;
     margin: auto;
-    /*margin-top: 40px;*/
     background-image: url(../img/about-image.png);
     background-repeat: no-repeat;
     background-position: 70px 140px;

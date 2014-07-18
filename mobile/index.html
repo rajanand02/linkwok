@@ -1,0 +1,243 @@
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+   	<meta charset="utf-8"/>
+    <meta name="description" content="LinkWok lets you search the web via your favourite search engine and lets you collate, sort, annotate and structure your search results with just a bit of drag and drop magic. You can organize and curate what you find, visually and share or collaborate with others. It's as easy as opening your favorite website, you don't have to install anything and can access what you found anytime, anywhere. And it's free & unlimited!" />
+    <meta name="keywords" content="linkwok,search,collate,organize,google,bing,search-map,mindmap, mind-map,bookmark,bookmarking,engine,app,search-app,cloud-search" />
+
+    <meta name="author" content="Deepak Cybit Pvt. Ltd." />
+    <meta name="copyright" content="Deepak Cybit Pvt. Ltd." />
+    <meta name="application-name" content="Linkwok" />
+    <meta name="dcterms.rightsHolder" content="Deepak Cybit Pvt. Ltd.">
+    <meta name="dcterms.rights" content="Copyright 2014 by the Deepak Cybit Pvt. Ltd., all rights reserved. All materials appearing on the linkwok servers (*.linkwok.com) may not be reproduced or stored in a retrieval system without prior written permission of the publisher and in no case for profit.">
+    <meta name="dcterms.dateCopyrighted" content="2014">
+    <!-- for Facebook -->
+    <meta property="og:title" content="Linkwok | Search just got personal!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://www.linkwok.com/img/1024.png" />
+    <meta property="og:url" content="http://www.linkwok.com" />
+    <meta property="og:description" content="LinkWok lets you search the web via your favourite search engine and lets you collate, sort, annotate and structure your search results with just a bit of drag and drop magic. You can organize and curate what you find, visually and share or collaborate with others. It's as easy as opening your favorite website, you don't have to install anything and can access what you found anytime, anywhere. And it's free & unlimited!" />
+
+    <meta name="twitter:creator" content="@DeepakCybit" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Linkwok | Search just got personal!" />
+    <meta name="twitter:description" content="LinkWok lets you search the web via your favourite search engine and lets you collate, sort, annotate and structure your search results with just a bit of drag and drop magic. You can organize and curate what you find, visually and share or collaborate with others. It's as easy as opening your favorite website, you don't have to install anything and can access what you found anytime, anywhere. And it's free & unlimited!" />
+    <meta name="twitter:image" content="http://www.linkwok.com/img/1024.png" />
+   	<title>Linkwok</title>
+   	<!-- link tags -->
+    <link rel="stylesheet" type= "text/css" href ="css\normalize.css"/>
+   	<link rel="stylesheet" type= "text/css" href ="css\style.css"/>
+    <link rel="stylesheet" type= "text/css" href ="css\ico-style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+   	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- meta tagss -->
+    <meta name ="viewport" content= "width= device-width, initial-scale=1.0">
+   	<!-- script tags -->
+   	<script src="js/jquery.js"></script>
+   	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+  window.reasons={
+    1:"Lorem1 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    2:"Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    3:"Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  };
+  
+  $(document).ready(function(){
+    $(".generate_reason").click(function(e){
+    $(".generate_reason").text("What else can I use Linkwok for?")
+    var number=Math.floor((Math.random() * 3) + 1);
+    console.log(number)
+    reason=reasons[number];
+    $(".text-italic").fadeOut().text(reason).fadeIn();
+  }); 
+    $("#rl1").addClass("active").fadeOut(600,function(){
+      // $(this).remove();
+      $("#rl2").addClass("active").fadeOut(600,function(){
+        // $(this).remove();
+        $("#rl3").addClass("active").fadeOut(600,function(){
+          // $(this).remove();
+          $("#rl4").addClass("active").fadeOut(600,function(){
+            // $(this).remove();
+            $("#rl5").addClass("active").fadeOut(600,function(){
+              // $(this).remove();
+              $("#rl6").addClass("active").fadeOut(600,function(){
+                // $(this).remove();
+                $("#rl7").addClass("active").fadeOut(600,function(){
+                  // $(this).remove();
+                  $(".replace_row").height(68);
+                  $(".gray_hr").css("margin-top","20px");
+                  $(".replace_holder").addClass("active");               
+                });                
+              });              
+            });            
+          });          
+        });        
+      });        
+    });
+    
+   
+
+  });
+  
+</script>
+   </head>
+ 
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar green navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Linkwok</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="demo.html">Demo</a></li>
+              <li><a href="features.html">Features</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div class="row ">
+        <div class="text-center logo_holder">
+          <img src="img/logo.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+          <h2 class="replaces_text green_text">REPLACES</h2>
+        </div>        
+        
+        
+      </div>
+    <div class="row replace_row">
+      <div class="col-xs-12">
+        
+          <div class="text-center">
+            <div class="replace_logo" id="rl1">
+              <img src="img/google.png">
+              <h4>Google</h4>
+            </div>
+            <div class="replace_logo" id="rl2">
+              <img src="img/notepad.png">
+              <h4>Notepad</h4>
+            </div>
+            <div class="replace_logo" id="rl3">
+              <img src="img/cut.png">
+              <h4>Cut</h4>
+            </div>
+            <div class="replace_logo" id="rl4">
+              <img src="img/copy.png">
+              <h4>Copy</h4>
+            </div>
+            <div class="replace_logo" id="rl5">
+              <img src="img/paste.png">
+              <h4>Paste</h4>
+            </div>
+            <div class="replace_logo" id="rl6">
+              <img src="img/word.png">
+              <h4>Microsoft Word</h4>
+            </div>
+            <div class="replace_logo" id="rl7">
+              <img src="img/powerpoint.png">
+              <h4>Microsoft Powerpoint</h4>
+            </div>
+
+            <div class="replace_holder" id="r1">
+              <i class="icon-google2"></i>
+            </div>
+            <div class="replace_holder" id="r2">
+              <i class="icon-file-text-o"></i>
+            </div>
+             <div class="replace_holder" id="r3">
+               <i class="icon-copy4"></i>
+            </div>
+             <div class="replace_holder" id="r4">
+               <i class="icon-paste4"></i>
+            </div>
+            <div class="replace_holder" id="r5">
+               <i class="icon-scissors"></i>
+            </div>
+            <div class="replace_holder" id="r6">
+               <i class="icon-word1"></i>
+            </div>
+            <div class="replace_holder" id="r7">
+               <i class="icon-powerpoint1"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+<hr class="gray_hr">
+      <div class="row ">
+        <div class="col-xs-12">
+          <p class="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center">
+            <div class="form-group">
+              <button type="button" class="btn btn-lg btn-default generate_reason">What can I use Linkwok for?
+              </button>
+            </div>
+            <div class="form-group">
+              <p class="justify text-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="form-group form-inline">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+            <button type="button" class="btn btn-default" id="email-submit">Tell me more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row green">
+          <div class="col-xs-12">
+          <div class="text-center">
+            <div class="footer_holder">
+              <a class="anchor_no_style" target="_blank" href="https://www.facebook.com/sharer/sharer.php?&p[url]=http://www.linkwok.com">
+                <i class="icon-facebook1 footer-icons"></i>
+              </a>
+               
+            </div>
+            <div class="footer_holder">
+              <a class="anchor_no_style" target="_blank" href="https://twitter.com/intent/tweet?url=http://www.linkwok.com/&text=Check out Linkwok. Search just got personal.&hashtags=search,me,linkwok">
+                <i class="icon-twitter2 footer-icons"></i>
+              </a>
+               
+            </div>
+            <div class="footer_holder">
+              <a class="anchor_no_style" target="_blank" href="https://plus.google.com/share?url=http://www.linkwok.com">
+                <i class="icon-googleplus footer-icons"></i>
+              </a>
+               
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </div> <!--container-fluid -->
+  </body>
+  
+
+ <!-- footer -->
+   
+
+ </html>

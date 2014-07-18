@@ -42,14 +42,14 @@ if (cluster.isMaster) {
     app.use('/www', express.static(__dirname + '/public'));
     var router = express.Router();
     router.get('/',checkForMobile);
+    // takes query parameter email=
+    router.post('/email',require('./lib/processor').send_email)
     app.use('/', router);
+    app.set('port', process.env.PORT || 8080);
 
-
-
-  app.set('port', process.env.PORT || 8080);
-  var server = app.listen(app.get('port'), function() {
-    console.log('Express server listening on porwtw ' + server.address().port)
-  });
+    var server = app.listen(app.get('port'), function() {
+        console.log('Express server listening on porwtw ' + server.address().port)
+    });
 }
 function isCallerMobile(req) {
   var ua = req.headers['user-agent'].toLowerCase(),

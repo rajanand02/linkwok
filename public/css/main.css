@@ -131,17 +131,17 @@ header.small-header {
 
 .blog-picture {
     background-size: 100%;
-    background-image: url(../img/main_blog_image.jpg);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/main_blog_image.jpg);
 }
 
 .explore-picture {
     background-size: 100%;
-    background-image: url(../img/explore.jpg);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/explore.jpg);
 }
 
 .about-slide {
     background-size: 100%;
-    background-image: url(../img/about3.jpg);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/about3.jpg);
 }
 
 .slide {
@@ -155,13 +155,13 @@ header.small-header {
 
 .slide-1 {
     background-size: 100%;
-    background-image: url(../img/main_image_1.jpg);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/main_image_1.jpg);
 }
 
 .slide-2 {
     display: none;
     background-size: 100%;
-    background-image: url(../img/main_image_2.jpg);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/main_image_2.jpg);
 }
 
 .slide-3 {
@@ -678,7 +678,7 @@ a.orange-button:hover img {
 }
 
 .demo-panel {
-    background-image: url(../img/demo_bg1.png);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/demo_bg1.png);
     background-size: 100%;
     width: 784.8px;
     height: 492px;
@@ -732,7 +732,7 @@ a.orange-button:hover img {
     width: 1000px;
     overflow: hidden;
     margin: auto;
-    background-image: url(../img/about-image.png);
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/about-image.png);
     background-repeat: no-repeat;
     background-position: 70px 140px;
 }

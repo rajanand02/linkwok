@@ -193,19 +193,19 @@ while (j < targetAnchors.length) {
     function changeWidget($item)
     {
       if($item.hasClass('link')) {
-        $item.attr('src', 'img/widget-block-1.png').css('position', 'absolute').addClass('widget animated pulse');
+        $item.attr('src', 'https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/widget-block-1.png').css('position', 'absolute').addClass('widget animated pulse');
       }
       else if($item.hasClass('image')) {
-        $item.attr('src', 'img/image-block-large-1.png').css('position', 'absolute').addClass('widget animated pulse');
+        $item.attr('src', 'https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/image-block-large-1.png').css('position', 'absolute').addClass('widget animated pulse');
         makeActive($('#image_step'));
       }
       else if($item.hasClass('note')) {
-        $item.attr('src', 'img/note-block-large.png').css('position', 'absolute').addClass('widget animated pulse');
+        $item.attr('src', 'https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/note-block-large.png').css('position', 'absolute').addClass('widget animated pulse');
         makeActive($('#note_step'));
       }
       else if($item.hasClass('table')) {
         makeActive($('#table_step'));
-        $item.attr('src', 'img/table-block-large.png').css('position', 'absolute').addClass('widget animated pulse');
+        $item.attr('src', 'https://s3-ap-southeast-1.amazonaws.com/linkwok-static/www/img/table-block-large.png').css('position', 'absolute').addClass('widget animated pulse');
       }
 
       makeActive($('#drag_step'));

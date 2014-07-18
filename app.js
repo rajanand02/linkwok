@@ -68,6 +68,5 @@ function checkForMobile(req, res, next) {
   } else {
     // if we didn't detect mobile, call the next method, which will eventually call the desktop route
     res.redirect('/www');
-    return next();
   }
 }

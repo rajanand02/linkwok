@@ -12,7 +12,6 @@ var express = require('express');
 var cluster = require('cluster');
 var path = require('path');
 var favicon = require('static-favicon');
-var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var numCPUs = require('os').cpus().length;

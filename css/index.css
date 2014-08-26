@@ -6,3 +6,6 @@ body{
   background: transparent;
   border: none;
 }
+.bg1{
+  background: url("../images/1.jpg");
+}

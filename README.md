@@ -20,7 +20,7 @@ service restart apache2
 ```sh
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
-###Ruby
+###Ruby from ubuntu repository 
 
 ```sh
 sudo apt-get install ruby
@@ -43,6 +43,8 @@ cd ~/var/www/html
 #clone the repo
 git clone git@github.com:scorpwarp23/app_front.git
 
+#change permission
+sudo chmod -R 777 app_front
 cd app_front
 git checkout raj
 
@@ -60,7 +62,7 @@ compass watch app_front
 
 ###In browser
 Go to
-http://localhost/app_front/index.html
+[http://localhost/app_front/index.html](http://localhost/app_front/index.html)
 and click live-reload extension to connect with guard
 
 ###On production

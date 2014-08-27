@@ -40,7 +40,7 @@ html.js,
 
 .dragslider h2 {
 	font-family: 'Open Sans', serif;
-	font-size: 8em;
+	font-size: 7em;
 	font-weight: 700;
 	margin: 0 auto;
 	line-height: 1;
@@ -138,7 +138,7 @@ button.slider-switch:hover {
 	display: inline-block;
 	position: relative;
 	height: 100%;
-	background: #567076;
+	/*background: #567076;*/
 	font-size: 16px;
 	white-space: normal;
 	cursor: -webkit-grab; 
@@ -194,7 +194,7 @@ button.slider-switch:hover {
 .js .img-dragger-large .slide h2 {
 	width: 70%;
 	left: 15%;
-	top: 50%;
+	top: 30%;
 	-webkit-transform: translate3d(0,-50%,0);
 	transform: translate3d(0,-50%,0);
 }
@@ -437,20 +437,20 @@ button.content-switch::before {
 	pointer-events: none !important;
 }
 
-@media screen and (max-width: 63.125em) {
-	.dragslider h2 {
-		font-size: 2.8em;
-	}
-	.pages .content {
-		font-size: 100%;
-	}
-	.pages .content h2 {
-		font-size: 3em;
-	}
-}
+/*@media screen and (max-width: 63.125em) {*/
+	/*.dragslider h2 {*/
+		/*font-size: 0.4em;*/
+	/*}*/
+	/*.pages .content {*/
+		/*font-size: 100%;*/
+	/*}*/
+	/*.pages .content h2 {*/
+		/*font-size: 3em;*/
+	/*}*/
+/*}*/
 
-@media screen and (max-width: 650px) {
-	button.slider-switch {
-		display: none;
-	}
-}
+/*@media screen and (max-width: 650px) {*/
+	/*button.slider-switch {*/
+		/*display: none;*/
+	/*}*/
+/*}*/

@@ -67,12 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 7, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-/* line 10, ../sass/screen.scss */
-.bg1 {
-  background: url("../images/1.jpg");
 }

@@ -81,8 +81,8 @@ body {
 /* line 13, ../sass/screen.scss */
 .container-block .content-block {
   position: absolute;
-  top: 10%;
-  height: 94%;
+  top: 0;
+  height: 100%;
   text-align: center;
 }
 /* line 18, ../sass/screen.scss */
@@ -94,8 +94,9 @@ body {
 /* line 23, ../sass/screen.scss */
 .container-block .content-block .description {
   text-align: justify;
+  line-height: 20px;
 }
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .container-block .content-block .getting-started {
   background: #ff651b;
   height: 47px;
@@ -108,8 +109,38 @@ body {
   line-height: 20px;
   border-color: #ff651b;
   font-weight: 700;
+  margin-top: 20px;
 }
-/* line 39, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .container-block .content-block .use-case {
   margin-top: 15px;
+}
+/* line 43, ../sass/screen.scss */
+.container-block .content-block .use-case h3 {
+  margin: 25px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+/* line 50, ../sass/screen.scss */
+.container-block .content-block .slider-switch {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+}
+/* line 56, ../sass/screen.scss */
+.container-block .open-video {
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+}
+/* line 60, ../sass/screen.scss */
+.container-block .open-video:hover {
+  text-decoration: none;
+}
+/* line 64, ../sass/screen.scss */
+.container-block .video-block {
+  display: none;
+  position: absolute;
+  top: 15%;
 }

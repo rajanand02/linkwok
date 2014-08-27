@@ -29,9 +29,9 @@ a:hover, a:focus {
 /* Header */
 .header-block {
 	margin: 0 auto;
-	width: 70%;
-	left: 15%;
-	top: 0;
+	width: 80%;
+	left: 10%;
+	top: 2%;
 	pointer-events: none;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;

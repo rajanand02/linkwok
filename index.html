@@ -28,7 +28,7 @@
     <meta name="twitter:image" content="http://www.linkwok.com/img/1024.png" />
 
 		<link rel="shortcut icon" href="img/favicon.ico">
-<!--<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
     <!--<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>-->
     <!--css files-->
@@ -45,8 +45,8 @@
   	<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<header id="header" class="codrops-header">
+		<div class="container-block row-fluid">
+			<header id="header" class="header-block">
         <h1>
           <img src="img/linkwok_white_logo.png" alt="" />
         </h1>
@@ -65,17 +65,19 @@
 				<section class="img-dragger img-dragger-large dragdealer">
 					<div class="handle">
 						<div class="slide" data-content="content-1">
-							<div class="img-wrap"><img src="img/bg.jpg" alt="img1"/></div>
-							<h2 class="welcome-text">Welcome to linkwok</h2>
-							<div class="description">
-							  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-							<button class="getting-started">GET STARTED. IT'S Free!</button>
-							<div class="use-case">
-							  <h3>what can i use it for?</h3>
-							  <span>Lorem ipsum dolor sit amet</span>
-							</div>
-							<button class="content-switch">Read more</button>
+              <div class="img-wrap"><img src="img/bg.jpg"  alt="img1"/></div>
+							<div class="content-block col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <h1 class="welcome-text col-md-12 col-sm-12 col-xs-12 col-lg-12">Welcome to linkwok</h1>
+                <div class="description col-xs-12 col-md-6 col-md-offset-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 use-case">
+                  <button class="getting-started center">GET STARTED. IT'S Free!</button>
+                  <h3>what can i use it for?</h3>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </div>
+                <button class="content-switch">Read more</button>
+              </div>
 						</div>
 						<div class="slide" data-content="content-2">
 							<div class="img-wrap"><img src="img/main_image_1.jpg" alt="img2"/></div>
@@ -191,7 +193,7 @@
 					</div>
 				</section>
 			</div>
-		</div><!-- /container --> 
+		</div><!-- /container-block -->
 		<script src="js/dragdealer.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/dragslideshow.js"></script>

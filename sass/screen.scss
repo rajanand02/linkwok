@@ -6,49 +6,24 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 body{
   font-family: 'Open Sans', sans-serif;
-  .container{
-    background-color: rgba(0, 0, 0, 0.8);;
-    #header{
-      @include mobile-only{
-        display: none;
-      }
-      @include tablet-only{
-        top: 1.8em;
-      }
-    }
+}
+.container-block{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  .content-block{
+    position: absolute;
+    top: 10%;
+    height: 94%;
+    text-align: center; 
     .welcome-text{
-      text-align: center;
-      font-size: 3em;
-      text-transform: uppercase;
-      @include mobile-only{
-        font-size: 1.8em;
-        top: 14% !important;
-      }
-      @include tablet-only{
-        font-size: 2em;
-        top: 24% !important;
-      }
+      font-weight: 700;
+      font-size: 2.3em;
+      margin: 20px 0px;
     }
     .description{
-      width: 50%;
-      left: 25%;
-      top: 45%;
-      -webkit-transform: translate3d(0,-50%,0);
-      transform: translate3d(0,-50%,0);
-      position: absolute;
-      color: white;
-      font-weight: 600;
       text-align: justify;
-      line-height: 20px;
-      @include mobile-only{
-        font-size: 1em;
-        width: 80%;
-        top: 42%;
-        left: 10%;
-      }
     }
     .getting-started{
-      position:  absolute;
       background: #ff651b;
       height: 47px;
       display: inline-block;
@@ -60,54 +35,9 @@ body{
       line-height: 20px;
       border-color: #ff651b;
       font-weight: 700;
-      top: 58%;
-      left: 42%;
-      @include mobile-only{
-        width: 60%;
-        top: 66%;
-        left: 19%;
-        height: 60px;
-      }
-      @include tablet-only{
-        top: 62%;
-        left: 36%;
-      }
     }
     .use-case{
-      position: absolute;
-      top: 70%;
-      left: 42%;
-      text-align: center;
-      color: white;
-      h3{
-        text-transform: uppercase;
-        font-weight: 700;
-        margin-bottom: 15px;
-      }
-      span{
-        margin-top: 15px;
-      }
-      @include mobile-only{
-        display: none;
-      }
-      @include tablet-only{
-        top: 73%;
-        left: 37%;
-      }
-    }
-    .content-switch{
-      @include tablet-only{
-        left: 47%;
-      }
-    }
-  }
-
-  .img-wrap{
-    img{
-      @include tablet-only{
-        height: 100%;
-      }
+      margin-top: 15px;
     }
   }
 }
-

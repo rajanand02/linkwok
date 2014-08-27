@@ -72,67 +72,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: 'Open Sans', sans-serif;
 }
-/* line 9, ../sass/screen.scss */
-body .container {
+
+/* line 10, ../sass/screen.scss */
+.container-block {
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
 }
-@media (max-width: 480px) {
-  /* line 11, ../sass/screen.scss */
-  body .container #header {
-    display: none;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 11, ../sass/screen.scss */
-  body .container #header {
-    top: 1.8em;
-  }
-}
-/* line 19, ../sass/screen.scss */
-body .container .welcome-text {
+/* line 13, ../sass/screen.scss */
+.container-block .content-block {
+  position: absolute;
+  top: 10%;
+  height: 94%;
   text-align: center;
-  font-size: 3em;
-  text-transform: uppercase;
 }
-@media (max-width: 480px) {
-  /* line 19, ../sass/screen.scss */
-  body .container .welcome-text {
-    font-size: 1.8em;
-    top: 14% !important;
-  }
+/* line 18, ../sass/screen.scss */
+.container-block .content-block .welcome-text {
+  font-weight: 700;
+  font-size: 2.3em;
+  margin: 20px 0px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 19, ../sass/screen.scss */
-  body .container .welcome-text {
-    font-size: 2em;
-    top: 24% !important;
-  }
-}
-/* line 32, ../sass/screen.scss */
-body .container .description {
-  width: 50%;
-  left: 25%;
-  top: 45%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
-  position: absolute;
-  color: white;
-  font-weight: 600;
+/* line 23, ../sass/screen.scss */
+.container-block .content-block .description {
   text-align: justify;
-  line-height: 20px;
 }
-@media (max-width: 480px) {
-  /* line 32, ../sass/screen.scss */
-  body .container .description {
-    font-size: 1em;
-    width: 80%;
-    top: 42%;
-    left: 10%;
-  }
-}
-/* line 50, ../sass/screen.scss */
-body .container .getting-started {
-  position: absolute;
+/* line 26, ../sass/screen.scss */
+.container-block .content-block .getting-started {
   background: #ff651b;
   height: 47px;
   display: inline-block;
@@ -144,65 +108,8 @@ body .container .getting-started {
   line-height: 20px;
   border-color: #ff651b;
   font-weight: 700;
-  top: 58%;
-  left: 42%;
 }
-@media (max-width: 480px) {
-  /* line 50, ../sass/screen.scss */
-  body .container .getting-started {
-    width: 60%;
-    top: 66%;
-    left: 19%;
-    height: 60px;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 50, ../sass/screen.scss */
-  body .container .getting-started {
-    top: 62%;
-    left: 36%;
-  }
-}
-/* line 76, ../sass/screen.scss */
-body .container .use-case {
-  position: absolute;
-  top: 70%;
-  left: 42%;
-  text-align: center;
-  color: white;
-}
-/* line 82, ../sass/screen.scss */
-body .container .use-case h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-/* line 87, ../sass/screen.scss */
-body .container .use-case span {
+/* line 39, ../sass/screen.scss */
+.container-block .content-block .use-case {
   margin-top: 15px;
-}
-@media (max-width: 480px) {
-  /* line 76, ../sass/screen.scss */
-  body .container .use-case {
-    display: none;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 76, ../sass/screen.scss */
-  body .container .use-case {
-    top: 73%;
-    left: 37%;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 98, ../sass/screen.scss */
-  body .container .content-switch {
-    left: 47%;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* line 106, ../sass/screen.scss */
-  body .img-wrap img {
-    height: 100%;
-  }
 }

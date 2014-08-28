@@ -238,77 +238,93 @@
             </div>
           </div>
           <div class="content" data-content="content-3">
-            <h2>Taking Sneezes <span>Nothing is out there&mdash;let's try again</span></h2>
-          </div>
-          <div class="content" data-content="content-4">
-            <h2>Heavy Talks <span>Heated conversations in the back yard</span></h2>
-          </div>
-          <div class="content" data-content="content-5">
-            <h2>Mountain Sun <span>Crazy nature and other weather ideas</span></h2>
-          </div>
-          <div class="content" data-content="content-6">
-            <h2>Beloved Mother <span>Decomposing fruits and burning houses</span></h2>
-          </div>
-          <div class="content" data-content="content-7">
-            <h2>Kale <i>&amp;</i> Karen <span>Only kale could make her happy</span></h2>
-          </div>
-          <div class="content" data-content="content-8">
-            <h2>Happiness <span>On self-sufficient homes and pets</span></h2>
-          </div>
-        </section>
-      </div>
-    </div><!-- /container-block -->
-    <script src="js/dragdealer.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/dragslideshow.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-      (function() {
+            <div class="col-md-12  col-xs-12 page-content">
+              <h1 class="page-title">ABOUT</h1>
+              <div class="col-md-8 col-md-offset-2 about-text">
+                <div class="col-md-2">
+                  <img src="img/about-image.png" alt="<`2`>" />
+                </div>
+                <div class="col-md-10 ">
+                  <p>Another late night, sickly sweet caffeine, underfed, overworked and in the habit of setting improbable deadlines (because well, what yardstick do we have to judge ourselves on but the collective tech genius of the ages!), but damn we love being a startup! And while that’s because we love hearing that we get to be our own bosses (blatant lie!), the honest truth is because we believe that between our world today, and a better one tomorrow is our own brand of secret sauce (it was important that I mention ‘secret sauce’).
+                    </p><p>
+                    And so, saddled with a couple of good ideas, we’ve bootstrapped- worked out of warehouses and accounting rooms in posh offices, ten year old IMacs and brand new Windows machines, basic IPhones and data dongles, trial versions of paid software and lots of food that comes in lots of little cardboard boxes. So basically whatever we could get our hands on. And that’s ok because we’re proud of what’s come out in the offing.</p>
+                  <p>
+                    Linkwok is a labor of love. And while it may have been dreamed up because I was breaking my head over a Psyc group project (and specifically stuck in the men’s room without magazines or shampoo bottles to read), we hope that it solves an important problem. Today, search engines are big, hairy, important beasts in our life, but all they do is offer us a list of computerized results and leave us sifting through the mess. That’s not very helpful! More than 85% of the 6 billion or so searches made every day are repeats, and until now there has been no way to take advantage of the (almost absolute) fact that somebody out there has already found what you are looking for. Research seems to need a lot more than search, and we would like to be your go to application for all the rest.
+                  </p>
+                  <p>
+                    So we think it’s intuitive, helpful, and (damn) sexy. But that means nothing unless you think so too. Which is why we promise to listen very closely to everything that you have to say. The Linkwok project will thrive on collaboration and strangers helping each other and may very well be the way we search tomorrow. But today, it begins with that small nudge- please try it, and if you like it, please help us make it better for everyone to use.</p>
+                </div>
+              </div>
+            </div>
+            <div class="content" data-content="content-4">
+              <h2>Heavy Talks <span>Heated conversations in the back yard</span></h2>
+            </div>
+            <div class="content" data-content="content-5">
+              <h2>Mountain Sun <span>Crazy nature and other weather ideas</span></h2>
+            </div>
+            <div class="content" data-content="content-6">
+              <h2>Beloved Mother <span>Decomposing fruits and burning houses</span></h2>
+            </div>
+            <div class="content" data-content="content-7">
+              <h2>Kale <i>&amp;</i> Karen <span>Only kale could make her happy</span></h2>
+            </div>
+            <div class="content" data-content="content-8">
+              <h2>Happiness <span>On self-sufficient homes and pets</span></h2>
+            </div>
+          </section>
+        </div>
+      </div><!-- /container-block -->
+      <script src="js/dragdealer.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/dragslideshow.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+        (function() {
 
-        var overlay = document.getElementById( 'overlay' ),
-        overlayClose = overlay.querySelector( 'button' ),
-        header = document.getElementById( 'header' )
-        switchBtnn = document.querySelector( 'button.slider-switch' ),
-        toggleBtnn = function() {
-          if( slideshow.isFullscreen ) {
-            classie.add( switchBtnn, 'view-maxi' );
-          }
-          else {
-            classie.remove( switchBtnn, 'view-maxi' );
-          }
-        },
-        toggleCtrls = function() {
-          if( !slideshow.isContent ) {
-            classie.add( header, 'hide' );
-          }
-        },
-        toggleCompleteCtrls = function() {
-          if( !slideshow.isContent ) {
-            classie.remove( header, 'hide' );
-          }
-        },
-        slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
-          // toggle between fullscreen and minimized slideshow
-          onToggle : toggleBtnn,
-          // toggle the main image and the content view
-          onToggleContent : toggleCtrls,
-          // toggle the main image and the content view (triggered after the animation ends)
-          onToggleContentComplete : toggleCompleteCtrls
-        }),
-        toggleSlideshow = function() {
-          slideshow.toggle();
-          toggleBtnn();
-        },
-        closeOverlay = function() {
-          classie.add( overlay, 'hide' );
-        };
+          var overlay = document.getElementById( 'overlay' ),
+          overlayClose = overlay.querySelector( 'button' ),
+          header = document.getElementById( 'header' )
+          switchBtnn = document.querySelector( 'button.slider-switch' ),
+          toggleBtnn = function() {
+            if( slideshow.isFullscreen ) {
+              classie.add( switchBtnn, 'view-maxi' );
+            }
+            else {
+              classie.remove( switchBtnn, 'view-maxi' );
+            }
+          },
+          toggleCtrls = function() {
+            if( !slideshow.isContent ) {
+              classie.add( header, 'hide' );
+            }
+          },
+          toggleCompleteCtrls = function() {
+            if( !slideshow.isContent ) {
+              classie.remove( header, 'hide' );
+            }
+          },
+          slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+            // toggle between fullscreen and minimized slideshow
+            onToggle : toggleBtnn,
+            // toggle the main image and the content view
+            onToggleContent : toggleCtrls,
+            // toggle the main image and the content view (triggered after the animation ends)
+            onToggleContentComplete : toggleCompleteCtrls
+          }),
+          toggleSlideshow = function() {
+            slideshow.toggle();
+            toggleBtnn();
+          },
+          closeOverlay = function() {
+            classie.add( overlay, 'hide' );
+          };
 
-        // toggle between fullscreen and small slideshow
-        <!--switchBtnn.addEventListener( 'click', toggleSlideshow );-->
-        // close overlay
-        overlayClose.addEventListener( 'click', closeOverlay );
+          // toggle between fullscreen and small slideshow
+          <!--switchBtnn.addEventListener( 'click', toggleSlideshow );-->
+          // close overlay
+          overlayClose.addEventListener( 'click', closeOverlay );
 
-      }());
-    </script>
-  </body>
-</html>
+        }());
+      </script>
+    </body>
+  </html>

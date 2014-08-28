@@ -229,7 +229,7 @@ body {
 
 /* line 129, ../sass/screen.scss */
 .pages {
-  background-color: #DFE3E3;
+  background-color: #fff;
   color: #fff;
 }
 @media (max-width: 480px) {
@@ -294,4 +294,19 @@ body {
   .page-content .feature-block img {
     padding: 5px;
   }
+}
+/* line 181, ../sass/screen.scss */
+.page-content .about-text {
+  margin-bottom: 15px;
+}
+/* line 183, ../sass/screen.scss */
+.page-content .about-text img {
+  padding-top: 3em;
+}
+/* line 186, ../sass/screen.scss */
+.page-content .about-text p {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 15px;
 }

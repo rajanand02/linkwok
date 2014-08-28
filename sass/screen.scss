@@ -127,7 +127,7 @@ body{
   }
 }
 .pages{
-  background-color: #DFE3E3;
+  background-color: #fff;
   color: #fff;
   @include mobile-only{
     div{
@@ -176,6 +176,18 @@ body{
       img{
         padding: 5px;
       }
+    }
+  }
+  .about-text{
+    margin-bottom: 15px;
+    img{
+      padding-top: 3em;
+    }
+    p{
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      margin-bottom: 15px;
     }
   }
 }

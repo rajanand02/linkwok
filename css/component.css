@@ -265,7 +265,8 @@ button.content-switch::before {
 }
 
 .pages .content {
-	background: #dfe3e3;
+	/*background: #dfe3e3;*/
+	background: #fff;
 	text-align: center;
 	color: #545b61;
 	font-size: 1.5em;

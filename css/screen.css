@@ -302,8 +302,9 @@ body {
 /* line 183, ../sass/screen.scss */
 .page-content .about-text img {
   padding-top: 3em;
+  width: 100%;
 }
-/* line 186, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .page-content .about-text p {
   font-size: 15px;
   line-height: 22px;

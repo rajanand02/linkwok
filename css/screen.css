@@ -179,3 +179,8 @@ body {
 .container-block .social-icons .fa-twitter {
   margin: 0px 10px;
 }
+/* line 98, ../sass/screen.scss */
+.container-block .content-title {
+  font-size: 5em;
+  font-weight: 800;
+}

@@ -109,3 +109,32 @@ body{
 
   }
 }
+.pages{
+  background-color: #DFE3E3;
+  color: #fff;
+}
+.page-content{
+  height: 100%;
+  margin-top: 5em;
+  text-align: left;
+  .page-title{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  .feature-img{
+    width: 100%;
+  }
+  .feature-block{
+    margin: 20px 0px;
+    h1{
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    p{
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

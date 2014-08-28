@@ -194,3 +194,41 @@ body {
   margin-left: 5px;
   margin-top: 5px;
 }
+
+/* line 112, ../sass/screen.scss */
+.pages {
+  background-color: #DFE3E3;
+  color: #fff;
+}
+
+/* line 116, ../sass/screen.scss */
+.page-content {
+  height: 100%;
+  margin-top: 5em;
+  text-align: left;
+}
+/* line 120, ../sass/screen.scss */
+.page-content .page-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+/* line 125, ../sass/screen.scss */
+.page-content .feature-img {
+  width: 100%;
+}
+/* line 128, ../sass/screen.scss */
+.page-content .feature-block {
+  margin: 20px 0px;
+}
+/* line 130, ../sass/screen.scss */
+.page-content .feature-block h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* line 135, ../sass/screen.scss */
+.page-content .feature-block p {
+  font-size: 14px;
+  line-height: 16px;
+}

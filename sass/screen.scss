@@ -133,13 +133,20 @@ body{
       display: inline-block;
       line-height: 6px;
     }
-    .fa-facebook{
-      padding: 16px;
+    .icon-facebook{
+      padding: 16px 15px;
     }
-    .fa-twitter{
+    .icon-twitter{
       margin: 0px 10px;
     }
+
   }
+  .icon-2x{
+    font-size: 36px;
+  }
+.icon-close{
+  font-size: 30px;
+}
   .content-title{
     font-size: 5em;
     font-weight: 800;

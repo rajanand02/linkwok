@@ -4,13 +4,28 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import "base";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+/*@import "compass/css3";*/
+/*@import "compass/css3/font-face";*/
+/*@include font-face("fontello", font-files("fontello.eot", "fontello.svg","fontello.ttf","fontello.woff"));*/
+/*@font-face {*/
+  /*font-family: 'fontello';*/
+  /*src: url('fonts/fontello.eot?4602320');*/
+  /*src: url('fonts/fontello.eot?4602320#iefix') format('embedded-opentype'),*/
+       /*url('fonts/fontello.woff?4602320') format('woff'),*/
+       /*url('fonts/fontello.ttf?4602320') format('truetype'),*/
+       /*url('fonts/fontello.svg?4602320#fontello') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
 .container-block{
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   .content-block{
+    background-color: rgba(0, 0, 0, .7);
     position: absolute;
     top: 0;
     height: 100%;
@@ -24,8 +39,22 @@ body{
       margin: 20px 0px;
     }
     .description{
-      text-align: justify;
+      text-align: left;
       line-height: 20px;
+      p{
+        font-weight: 700;
+        font-size: 18px
+      }
+      .block-quotes{
+        margin: 10px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.15;
+      }
+      .quote{
+        display: block;
+        margin: 5px 5px;
+      }
       @include mobile-only{
         font-size: 14px;
       }
@@ -49,6 +78,10 @@ body{
         padding: 8px;
       }
     }
+    .use-header{
+      margin-top: 20px;
+    }
+
     .use-case{
       margin-top: 15px;
       h3{
@@ -85,6 +118,7 @@ body{
     .video-block{
       position: absolute;
       top: 15%;
+      display: none;
     }
   }
   .social-icons{
@@ -116,7 +150,7 @@ body{
   .content-info{
     text-align: left;
     .subtitle{
-      font-size: 1.7em;
+      font-size: 1.5em;
       margin-left: 5px;
       margin-top: 5px;
       @include mobile-only{

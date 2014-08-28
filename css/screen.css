@@ -100,7 +100,13 @@ body {
   text-align: justify;
   line-height: 20px;
 }
-/* line 30, ../sass/screen.scss */
+@media (max-width: 480px) {
+  /* line 26, ../sass/screen.scss */
+  .container-block .content-block .description {
+    font-size: 14px;
+  }
+}
+/* line 33, ../sass/screen.scss */
 .container-block .content-block .getting-started {
   background: #ff651b;
   height: 47px;
@@ -115,54 +121,68 @@ body {
   font-weight: 700;
   margin-top: 20px;
 }
-/* line 44, ../sass/screen.scss */
+@media (max-width: 480px) {
+  /* line 33, ../sass/screen.scss */
+  .container-block .content-block .getting-started {
+    margin-top: 0px;
+    height: 35px;
+    padding: 8px;
+  }
+}
+/* line 52, ../sass/screen.scss */
 .container-block .content-block .use-case {
   margin-top: 15px;
 }
-/* line 46, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .container-block .content-block .use-case h3 {
   margin: 25px 0px 20px 0px;
   font-weight: 700;
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 53, ../sass/screen.scss */
+@media (max-width: 480px) {
+  /* line 54, ../sass/screen.scss */
+  .container-block .content-block .use-case h3 {
+    font-size: 16px;
+  }
+}
+/* line 64, ../sass/screen.scss */
 .container-block .content-block .slider-switch {
   position: absolute;
   bottom: 45px;
   right: 45px;
 }
-/* line 58, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .container-block .content-block .open-video, .container-block .content-block .close-video {
   position: absolute;
   bottom: 45px;
   left: 45px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .container-block .content-block .open-video span, .container-block .content-block .close-video span {
   padding: 10px 0px 5px 10px;
   float: left;
 }
-/* line 66, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .container-block .content-block .open-video:hover, .container-block .content-block .close-video:hover {
   text-decoration: none;
 }
-/* line 70, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .container-block .content-block .close-video {
   display: none;
 }
-/* line 74, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .container-block .content-block .video-block {
   position: absolute;
   top: 15%;
 }
-/* line 79, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .container-block .social-icons {
   position: absolute;
   bottom: 45px;
   right: 45px;
 }
-/* line 83, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .container-block .social-icons i {
   background: white;
   color: #000;
@@ -171,81 +191,106 @@ body {
   display: inline-block;
   line-height: 6px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .container-block .social-icons .fa-facebook {
   padding: 16px;
 }
-/* line 94, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .container-block .social-icons .fa-twitter {
   margin: 0px 10px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .container-block .content-title {
   font-size: 5em;
   font-weight: 800;
 }
-/* line 102, ../sass/screen.scss */
+@media (max-width: 480px) {
+  /* line 109, ../sass/screen.scss */
+  .container-block .content-title {
+    font-size: 3em;
+  }
+}
+/* line 116, ../sass/screen.scss */
 .container-block .content-info {
   text-align: left;
 }
-/* line 104, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .container-block .content-info .subtitle {
   font-size: 1.7em;
   margin-left: 5px;
   margin-top: 5px;
 }
+@media (max-width: 480px) {
+  /* line 118, ../sass/screen.scss */
+  .container-block .content-info .subtitle {
+    font-size: 1em;
+  }
+}
 
-/* line 112, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .pages {
   background-color: #DFE3E3;
   color: #fff;
 }
 @media (max-width: 480px) {
-  /* line 116, ../sass/screen.scss */
+  /* line 133, ../sass/screen.scss */
   .pages div {
     padding-left: 2px;
     padding-right: 2px;
   }
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .page-content {
   height: 100%;
   margin-top: 5em;
   text-align: left;
 }
-/* line 126, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .page-content .page-title {
   text-align: center;
   font-size: 2em;
   margin-bottom: 15px;
 }
-/* line 131, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .page-content .feature-img {
   width: 100%;
 }
-/* line 134, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .page-content .feature-block {
   margin: 20px 0px;
   display: inline-block;
 }
-/* line 137, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .page-content .feature-block h1 {
   font-size: 16px;
   margin-bottom: 10px;
   font-weight: 700;
 }
-/* line 142, ../sass/screen.scss */
+@media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  /* line 159, ../sass/screen.scss */
+  .page-content .feature-block .connect-img {
+    width: 148px;
+    margin: 0px -20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 159, ../sass/screen.scss */
+  .page-content .feature-block .connect-img {
+    width: 86px;
+  }
+}
+/* line 168, ../sass/screen.scss */
 .page-content .feature-block p {
   font-size: 14px;
   line-height: 16px;
 }
 @media (max-width: 480px) {
-  /* line 147, ../sass/screen.scss */
+  /* line 173, ../sass/screen.scss */
   .page-content .feature-block .col-xs-9 {
     padding-left: 10px;
   }
-  /* line 150, ../sass/screen.scss */
+  /* line 176, ../sass/screen.scss */
   .page-content .feature-block img {
     padding: 5px;
   }

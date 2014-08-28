@@ -26,6 +26,9 @@ body{
     .description{
       text-align: justify;
       line-height: 20px;
+      @include mobile-only{
+        font-size: 14px;
+      }
     }
     .getting-started{
       background: #ff651b;
@@ -40,6 +43,11 @@ body{
       border-color: #ff651b;
       font-weight: 700;
       margin-top: 20px;
+      @include mobile-only{
+        margin-top: 0px;
+        height: 35px;
+        padding: 8px;
+      }
     }
     .use-case{
       margin-top: 15px;
@@ -48,6 +56,9 @@ body{
         font-weight: 700;
         font-size: 1.3em;
         text-transform: uppercase;
+        @include mobile-only{
+          font-size: 16px;
+        }
       }
     }
     .slider-switch{
@@ -98,6 +109,9 @@ body{
   .content-title{
     font-size: 5em;
     font-weight: 800;
+    @include mobile-only{
+      font-size: 3em;
+    }
   }
   .content-info{
     text-align: left;
@@ -105,6 +119,9 @@ body{
       font-size: 1.7em;
       margin-left: 5px;
       margin-top: 5px;
+      @include mobile-only{
+        font-size: 1em;
+      }
     }
 
   }
@@ -138,6 +155,15 @@ body{
       font-size: 16px;
       margin-bottom: 10px;
       font-weight: 700;
+    }
+    .connect-img{
+      @include desktop-only{
+        width: 148px;
+        margin: 0px -20px;
+      }
+      @include mobile-only{
+        width: 86px;
+      }
     }
     p{
       font-size: 14px;

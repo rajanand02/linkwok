@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 /* line 5, ../../../../../home/raj/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,7 +68,114 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 6, ../sass/screen.scss */
+/* line 7, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+/* line 10, ../sass/screen.scss */
+.container-block {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 13, ../sass/screen.scss */
+.container-block .content-block {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  text-align: center;
+}
+/* line 18, ../sass/screen.scss */
+.container-block .content-block.open {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 21, ../sass/screen.scss */
+.container-block .content-block .welcome-text {
+  font-weight: 700;
+  font-size: 2.3em;
+  margin: 20px 0px;
+}
+/* line 26, ../sass/screen.scss */
+.container-block .content-block .description {
+  text-align: justify;
+  line-height: 20px;
+}
+/* line 30, ../sass/screen.scss */
+.container-block .content-block .getting-started {
+  background: #ff651b;
+  height: 47px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ff651b;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 20px;
+  border-color: #ff651b;
+  font-weight: 700;
+  margin-top: 20px;
+}
+/* line 44, ../sass/screen.scss */
+.container-block .content-block .use-case {
+  margin-top: 15px;
+}
+/* line 46, ../sass/screen.scss */
+.container-block .content-block .use-case h3 {
+  margin: 25px 0px 20px 0px;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+/* line 53, ../sass/screen.scss */
+.container-block .content-block .slider-switch {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+}
+/* line 58, ../sass/screen.scss */
+.container-block .content-block .open-video, .container-block .content-block .close-video {
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+}
+/* line 62, ../sass/screen.scss */
+.container-block .content-block .open-video span, .container-block .content-block .close-video span {
+  padding: 10px 0px 5px 10px;
+  float: left;
+}
+/* line 66, ../sass/screen.scss */
+.container-block .content-block .open-video:hover, .container-block .content-block .close-video:hover {
+  text-decoration: none;
+}
+/* line 70, ../sass/screen.scss */
+.container-block .content-block .close-video {
+  display: none;
+}
+/* line 74, ../sass/screen.scss */
+.container-block .content-block .video-block {
+  position: absolute;
+  top: 15%;
+}
+/* line 79, ../sass/screen.scss */
+.container-block .social-icons {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+}
+/* line 83, ../sass/screen.scss */
+.container-block .social-icons i {
+  background: white;
+  color: #000;
+  padding: 16px 12px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 6px;
+}
+/* line 91, ../sass/screen.scss */
+.container-block .social-icons .fa-facebook {
+  padding: 16px;
+}
+/* line 94, ../sass/screen.scss */
+.container-block .social-icons .fa-twitter {
+  margin: 0px 10px;
 }

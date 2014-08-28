@@ -149,13 +149,12 @@
 			} );
 
 			// reveal content
-			slide.querySelector( 'button.content-switch' ).addEventListener( 'click', function() { self._toggleContent( slide ); } );
+      slide.querySelector( 'button.content-switch' ).addEventListener( 'click', function() { self._toggleContent( slide ); } );
       document.querySelector('.content-block').addEventListener( 'mousewheel', function(e) { 
         if(e.wheelDelta < 0) {
           self._toggleContent( slide ); 
         }
         else {
-          self._toggleContent( slide ); 
           //scroll up
           //console.log('Up');
           }
